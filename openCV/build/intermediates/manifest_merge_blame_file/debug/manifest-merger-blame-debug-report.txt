@@ -1,0 +1,23 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.opencv"
+4    android:versionCode="3460"
+5    android:versionName="3.4.6" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\src\main\AndroidManifest.xml:7:5-67
+11-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\src\main\AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\src\main\AndroidManifest.xml:8:5-80
+12-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\src\main\AndroidManifest.xml:8:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\src\main\AndroidManifest.xml:9:5-81
+13-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\src\main\AndroidManifest.xml:9:22-78
+14
+15</manifest>

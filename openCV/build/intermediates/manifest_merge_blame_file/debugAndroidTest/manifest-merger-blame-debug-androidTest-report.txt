@@ -1,0 +1,46 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.opencv.test" >
+4
+5    <uses-sdk
+5-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8575226407764008303.xml:5:5-74
+6        android:minSdkVersion="19"
+6-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8575226407764008303.xml:5:15-41
+7        android:targetSdkVersion="29" />
+7-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8575226407764008303.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8575226407764008303.xml:11:5-15:65
+10        android:name="android.test.InstrumentationTestRunner"
+10-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8575226407764008303.xml:11:22-75
+11        android:functionalTest="false"
+11-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8575226407764008303.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8575226407764008303.xml:13:22-53
+13        android:label="Tests for org.opencv.test"
+13-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8575226407764008303.xml:15:22-63
+14        android:targetPackage="org.opencv.test" />
+14-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8575226407764008303.xml:12:22-61
+15
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[__tested_artifact__::openCV] C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+16-->[__tested_artifact__::openCV] C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->[__tested_artifact__::openCV] C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-80
+17-->[__tested_artifact__::openCV] C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->[__tested_artifact__::openCV] C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+18-->[__tested_artifact__::openCV] C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-78
+19
+20    <application
+20-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8575226407764008303.xml:7:5-9:19
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ec609e8cee787e2dff3592c66b08a66a\core-1.0.0\AndroidManifest.xml:22:18-86
+22        android:debuggable="true" >
+22-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8575226407764008303.xml:7:18-43
+23        <uses-library android:name="android.test.runner" />
+23-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8575226407764008303.xml:8:9-60
+23-->C:\Program Files\Android\Studio Projects\ShiChen\lprocr\openCV\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8575226407764008303.xml:8:23-57
+24    </application>
+25
+26</manifest>

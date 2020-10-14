@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <org.opencv.view.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/result_bitmap"
+        android:layout_width="160dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/result_bitmap_ocr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/result_bitmap"
+        android:textColor="@color/result_text"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/preview_bitmap"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/result_bitmap" />
+
+    <TextView
+        android:id="@+id/preview_bitmap_ocr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/preview_bitmap"
+        android:layout_toRightOf="@id/preview_bitmap"
+        android:textColor="@color/result_text"
+        android:textSize="20sp" />
+</RelativeLayout>
